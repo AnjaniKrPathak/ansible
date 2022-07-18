@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
  - hosts: all
    become: yes 
@@ -10,4 +11,14 @@
      apt: 
       name: apache
       status: started   
+=======
+---
+ - hosts: all
+   become: yes 
+   tasks: 
+   - name: I want to install webserver apache
+     apt: 
+      name: apache2 
+      status: present 
+>>>>>>> 6807480026f725484c90c3a28e51a3bf817d9d3e
    
