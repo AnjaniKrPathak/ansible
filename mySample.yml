@@ -1,0 +1,9 @@
+---
+ - hosts: all
+   become: yes 
+   tasks: 
+   - name: I want to install webserver apache
+     apt: 
+      name: apache2 
+      status: present 
+   
