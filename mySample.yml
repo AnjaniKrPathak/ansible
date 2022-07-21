@@ -1,14 +1,8 @@
 ---
- - hosts: all
-   become: yes 
-   tasks: 
-   - name: I want to install webserver apache
-     apt: 
-      name: apache2 
-      status: present
-   - name: I want to install Apache server 
-     apt: 
-      name: apache
-      status: started   
-
-   
+- hosts: myhostserver
+  become: yes
+  gather_facts: yes
+  task: 
+  - name: install web server on ubuntu ansible node 
+    apt: 
+     name: my web server 
