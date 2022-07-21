@@ -5,4 +5,5 @@
   task: 
   - name: install web server on ubuntu ansible node 
     apt: 
-     name: my web server 
+     name: my web server
+     state: present
