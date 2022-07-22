@@ -2,7 +2,7 @@
 - hosts: mywebservers
   become: yes
   gather_facts: yes
-  task: 
+  tasks: 
   - name: uninstall git 
     apt: 
      name: git 
