@@ -4,4 +4,7 @@
   gather_facts: yes
   tasks:
   - name: install webserver  on ubuntu ansible nodes
-    apt: name=apache2 update_cache=yes state=latest 
+    apt: 
+      name=apache2 
+      update_cache=yes 
+      state=latest
