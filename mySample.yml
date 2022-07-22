@@ -8,3 +8,4 @@
       name="{{ubuntuwebservername}}"
       update_cache=yes 
       state=latest
+    when: ansible_os_family =="{{ubuntuwebserverfamily}}"  
