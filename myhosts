@@ -1,2 +1,11 @@
 [mywebservers]
 172.31.47.38
+
+
+
+
+
+
+
+[mywebservers.vars]
+ubuntuwebservername = apache22222
