@@ -1,0 +1,7 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks: 
+  - name: install java on ubutu server 
+    apt: 
+      name: "{{javapackonubuntu}}"

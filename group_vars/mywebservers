@@ -1,3 +1,4 @@
 ---
 ubuntuwebservername: apache2
 ubuntuwebserverfamily: Debian
+javapackonubuntu: oracle-java8-installer
