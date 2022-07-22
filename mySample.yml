@@ -5,6 +5,6 @@
   tasks:
   - name: install webserver  on ubuntu ansible nodes
     apt: 
-      name={{ubuntuwebservername}}
+      name="{{ubuntuwebservername}}"
       update_cache=yes 
       state=latest
