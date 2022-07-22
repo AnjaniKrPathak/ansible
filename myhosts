@@ -8,4 +8,4 @@
 
 
 [mywebservers:vars]
-ubuntuwebservername = apache22222
+ubuntuwebservername = apache2
