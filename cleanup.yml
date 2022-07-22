@@ -3,7 +3,7 @@
   become: yes
   gather_facts: yes
   tasks:
-  - name: install webserver  on ubuntu ansible nodes
+  - name: uninstall webserver  on ubuntu ansible nodes
     apt: 
      name: apache2
      state: absent
