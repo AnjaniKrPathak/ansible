@@ -7,5 +7,5 @@
 
 
 
-[mywebservers.vars]
+[mywebservers:vars]
 ubuntuwebservername = apache22222
