@@ -1,6 +1,8 @@
+
 ---
 - hosts: mywebservers
   become: yes
+  gather_facts: yes
   task: 
   - name: uninstall git 
     apt: 
