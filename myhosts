@@ -1,11 +1,8 @@
 [mywebservers]
-172.31.47.38
+172.31.92.13
 
 
 
 
 
 
-
-[mywebservers:vars]
-ubuntuwebservername = apache2
