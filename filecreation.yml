@@ -1,6 +1,8 @@
 ---
 - hosts : mywebservers
   tasks: 
+  - name: providing permission 
+    command: sudo chown -R anjani "/home/ubuntu/mytestfile"
   - name: creating an empty file 
     file:
       path: "/home/ubuntu/mytestfile"
