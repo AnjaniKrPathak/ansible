@@ -1,2 +1,6 @@
 ---
 # tasks file for apachecleanuprole
+- name: Uninstall Apache 
+  apt: 
+    name: apache2
+    state: absent
