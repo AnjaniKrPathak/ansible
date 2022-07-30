@@ -1,0 +1,9 @@
+---
+- hosts: mywebservers
+  become: yes
+  tasks:
+  - include-task: myfile.yml
+  - name: copy static file into ansible nodes
+    copy: 
+      src: mytestfile  
+      dest: /home/ubuntu/mystaticfile
