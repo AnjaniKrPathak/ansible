@@ -1,5 +1,4 @@
----
-  - name: creation of new  text 
-    file: 
+--- 
+  - file: 
       path: /home/ubuntu/mytestfile
       state: touch
